@@ -1,0 +1,55 @@
+# .gitignore for R project
+
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Setup verification
+.setup_complete
+
+# Data directory
+/data/*
+!/data/.gitkeep
+
+# Logs
+/logs/*
+!/logs/.gitkeep
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Package specific
+packrat/lib*/
+packrat/src/
+
+# Shiny temporary files
+*.dcf
+rsconnect/
+
+# Output files
+*.pdf
+*.html
+*.csv
+*.xlsx
+*.xls
+*.doc
+*.docx
+
+# Environment variables
+.env
+.Renviron
