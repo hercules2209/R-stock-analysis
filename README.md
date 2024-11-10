@@ -46,36 +46,6 @@ This is the faster and recommended method if you have RStudio installed.
    - Once packages are installed, the app will launch automatically
    - The app will open in your default web browser
 
-### Method 2: Using Command Line Scripts
-
-This method is suitable for automated setups but takes longer due to comprehensive dependency installation.
-
-1. **Prerequisites**
-   - Install [R](https://cran.r-project.org/) (version 4.0.0 or higher)
-   - Ensure R is added to your system's PATH
-
-2. **Setup Steps**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/hercules2209/stock-analysis.git
-   cd stock-analysis
-   ```
-
-3. **Run the Application**
-
-   For Linux/MacOS:
-   ```bash
-   # Make the script executable
-   chmod +x run.sh
-   
-   # Run the application
-   ./run.sh
-   ```
-
-   For Windows:
-   ```batch
-   run.bat
-   ```
 
    **Note**: First-time setup will:
    - Create necessary directories
